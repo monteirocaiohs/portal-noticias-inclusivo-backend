@@ -5,7 +5,7 @@ namespace App\Encoder;
 use Symfony\Component\HttpFoundation\RequestStack;
 use Symfony\Component\Serializer\Encoder\DecoderInterface;
 
-final class MultipartDecoder implements DecoderInterface
+final class MultpartDecoder implements DecoderInterface
 {
     public const FORMAT = 'multipart';
 
